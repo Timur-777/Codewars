@@ -23,3 +23,12 @@ function century(year) {
     if(year <=100) return 1;
     return  Math.ceil(year/100);
 }
+
+function arrayPlusArray(arr1, arr2) {
+    let sum = 0;
+    let newArr =arr1.concat(arr2);
+    for (let i = 0; i < newArr.length; i++) {
+        sum += newArr[i];
+    }
+    return sum
+}

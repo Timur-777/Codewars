@@ -32,3 +32,8 @@ function arrayPlusArray(arr1, arr2) {
     }
     return sum
 }
+
+function stringToArray(string) {
+    let str = string.split(' ');
+    return str
+}

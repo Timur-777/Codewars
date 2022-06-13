@@ -1,7 +1,2 @@
-let messege ='Привет мой лучший друг'
-function stringToArray(string) {
-    let str = string.split(' ');
-    return str
-}
+let arr = [11,22,33,44,55]
 
-console.log(stringToArray(messege));

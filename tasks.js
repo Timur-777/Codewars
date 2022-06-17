@@ -45,3 +45,26 @@ let min = function(list){
 let max = function(list){
     return Math.max(...list)
 }
+
+function humanYearsCatYearsDogYears(humanYears) {
+    let res = []
+    switch (humanYears) {
+        case 1:
+            res = [1, 15, 15]
+            break
+        case 2:
+            res = [2, 24, 24];
+            break
+        default:
+            let catYears = 24
+            let dogYears = 24
+            for (let i = 2; i < humanYears ; i++) {
+                catYears += 4
+                dogYears += 5
+            }
+            res = [humanYears,catYears,dogYears];
+    }
+    return res
+
+}
+

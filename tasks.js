@@ -81,3 +81,6 @@ function pickIt(arr){
     return [odd,even];
 }
 
+function repeatStr (n, s) {
+    return s.repeat(n) ;
+}

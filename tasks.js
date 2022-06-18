@@ -68,6 +68,15 @@ function humanYearsCatYearsDogYears(humanYears) {
 
 }
 
+function removeEveryOther(arr){
+    let res =[]
+    for (let i = 0; i < arr.length; i++) {
+        if([i]%2===0){
+            res.push(arr[i])
+        }
+    }return res
+}
+
 function pickIt(arr){
     let odd=[],even=[];
     for (let i = 0; i < arr.length; i++) {

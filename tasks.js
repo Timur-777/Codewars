@@ -101,3 +101,11 @@ function mergeArrays(arr1, arr2) {
 var replaceDots = function(str) {
     return str.split('.').join('-')
 }
+
+function squareSum(numbers){
+    let res = 0
+    numbers.forEach((item) => {
+        res += Math.pow(item,2)
+    })
+    return res
+}

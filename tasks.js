@@ -68,15 +68,6 @@ function humanYearsCatYearsDogYears(humanYears) {
 
 }
 
-function removeEveryOther(arr){
-    let res =[]
-    for (let i = 0; i < arr.length; i++) {
-        if([i]%2===0){
-            res.push(arr[i])
-        }
-    }return res
-}
-
 function pickIt(arr){
     let odd=[],even=[];
     for (let i = 0; i < arr.length; i++) {
@@ -92,4 +83,21 @@ function pickIt(arr){
 
 function repeatStr (n, s) {
     return s.repeat(n) ;
+}
+
+function removeEveryOther(arr){
+    let res =[]
+    for (let i = 0; i < arr.length; i++) {
+        if([i]%2===0){
+            res.push(arr[i])
+        }
+    }return res
+}
+
+function mergeArrays(arr1, arr2) {
+    return [...new Set(arr1.concat(arr2).sort((a,b) => a - b))]
+}
+
+var replaceDots = function(str) {
+    return str.split('.').join('-')
 }

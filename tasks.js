@@ -109,3 +109,13 @@ function squareSum(numbers){
     })
     return res
 }
+
+function simpleMultiplication(number) {
+    let res = 0
+    if(number%2===0){
+        res = number * 8
+    }else{
+        res = number * 9
+    }
+    return res
+}

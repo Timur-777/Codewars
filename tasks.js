@@ -119,3 +119,9 @@ function simpleMultiplication(number) {
     }
     return res
 }
+
+function fakeBin(x){
+    return x.split('').map(function(num){
+        if(num<5) {return 0} else{return 1}
+    }).join('')
+}

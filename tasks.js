@@ -129,3 +129,11 @@ function fakeBin(x){
 function square(num){
     return Math.pow(num,2)
 }
+
+const reverseSeq = n => {
+    let arr = [];
+    for (let i = n; i > 0 ; i--) {
+        arr.push(i)
+    }
+    return arr
+};

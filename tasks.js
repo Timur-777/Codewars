@@ -125,3 +125,7 @@ function fakeBin(x){
         if(num<5) {return 0} else{return 1}
     }).join('')
 }
+
+function square(num){
+    return Math.pow(num,2)
+}

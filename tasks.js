@@ -141,3 +141,12 @@ const reverseSeq = n => {
 function greet(name){
     return `Hello, ${name} how are you doing today?`;
 }
+
+function between(a, b) {
+    let arr = [];
+    for (let i = a; i <= b; i++) {
+        arr.push(i)
+    }
+    return arr
+
+}

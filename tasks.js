@@ -150,3 +150,12 @@ function between(a, b) {
     return arr
 
 }
+
+function makeNegative(num) {
+    let res;
+    if(num > 0){
+        res = num * -1
+    }else if(num <= 0){
+        res = num * 1}
+    return res
+}

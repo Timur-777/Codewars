@@ -151,7 +151,7 @@ function between(a, b) {
 
 }
 
-function makeNegative(num) {
+function makeNegative(num){
     let res;
     if(num > 0){
         res = num * -1
@@ -159,3 +159,7 @@ function makeNegative(num) {
         res = num * 1}
     return res
 }
+function makeNegative1(num){
+    return num > 0 ? num * -1:num * 1
+}
+

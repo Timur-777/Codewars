@@ -163,3 +163,13 @@ function makeNegative1(num){
     return num > 0 ? num * -1:num * 1
 }
 
+function stringClean(s){
+    let result = '';
+    for (let i = 0; i < s.length; i++) {
+        if(isNaN(s[i])){
+            result +=s[i]
+        }
+    }
+    return result
+}
+

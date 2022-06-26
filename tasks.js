@@ -177,3 +177,11 @@ function chromosomeCheck(sperm) {
     return `Congratulations! You're going to have a ${sperm === 'XY' ? 'son' : 'daughter'}.`
 }
 
+function powersOfTwo(n){
+    let arr = [];
+    for (let i = 0; i <= n ; i++) {
+        let res = Math.pow(2,i)
+        arr.push(res)
+    }
+    return arr
+}

@@ -193,3 +193,8 @@ function xor(a, b) {
         return true
     }else {return false}
 }
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    let res = distanceToPump/fuelLeft
+    return res <= mpg?true:false;
+};

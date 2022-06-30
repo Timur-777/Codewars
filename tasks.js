@@ -206,3 +206,15 @@ function Ship(draft,crew) {
         return(draft >= (crew * 1.5 + 20))
     }
 }
+
+function warnTheSheep(queue) {
+    let arr = queue.reverse()
+    for (let i = 0; i < arr.length; i++) {
+        if(arr[0] == 'wolf'){
+            return 'Pls go away and stop eating my sheep'
+        }
+        if(arr[i] == 'wolf'){
+            return `Oi! Sheep number ${i}! You are about to be eaten by a wolf!`
+        }
+    }
+}

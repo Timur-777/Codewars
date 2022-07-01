@@ -159,6 +159,7 @@ function makeNegative(num){
         res = num * 1}
     return res
 }
+
 function makeNegative1(num){
     return num > 0 ? num * -1:num * 1
 }
@@ -217,4 +218,12 @@ function warnTheSheep(queue) {
             return `Oi! Sheep number ${i}! You are about to be eaten by a wolf!`
         }
     }
+}
+
+function lovefunc(flower1, flower2){
+    let same1 = flower1 % 2 ===0 && flower2 % 2 ===0;
+    let same2 = flower1 % 2 ===1 && flower2 % 2 ===1;
+    if (same1 || same2){
+        return false
+    }else{return true}
 }

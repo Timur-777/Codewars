@@ -231,3 +231,12 @@ function lovefunc(flower1, flower2){
 function binToDec(bin){
     return parseInt(bin,2)
 }
+
+function opposite(number) {
+    if(number < 0){
+        return Math.abs(number);
+    }else if(number > 0){
+        let res = number - number * 2;
+        return res
+    }else{return 0}
+}

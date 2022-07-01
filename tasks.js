@@ -227,3 +227,7 @@ function lovefunc(flower1, flower2){
         return false
     }else{return true}
 }
+
+function binToDec(bin){
+    return parseInt(bin,2)
+}

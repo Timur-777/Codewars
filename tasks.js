@@ -240,3 +240,7 @@ function opposite(number) {
         return res
     }else{return 0}
 }
+
+function sayHello( name, city, state ) {
+    return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`
+}

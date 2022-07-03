@@ -244,3 +244,9 @@ function opposite(number) {
 function sayHello( name, city, state ) {
     return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`
 }
+
+function setAlarm(employed, vacation){
+    if(employed === true && vacation === false){
+        return true
+    }else{return false}
+}

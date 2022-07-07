@@ -250,3 +250,8 @@ function setAlarm(employed, vacation){
         return true
     }else{return false}
 }
+
+function toCsvText(array) {
+    return array.join('\n')
+
+}

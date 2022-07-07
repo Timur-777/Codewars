@@ -255,3 +255,9 @@ function toCsvText(array) {
     return array.join('\n')
 
 }
+
+function nearestSq(n) {
+    let num;
+    num = Math.round(Math.sqrt(n))
+    return Math.pow(num,2)
+}

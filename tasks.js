@@ -261,3 +261,17 @@ function nearestSq(n) {
     num = Math.round(Math.sqrt(n))
     return Math.pow(num,2)
 }
+
+function points(games) {
+    let total = 0;
+    for(let item of games){
+        if(item[0] > item[2]){
+            total += 3
+        }else if(item[0] === item[2]){
+            total += 1
+        }else{
+            total += 0
+        }
+    }
+    return total
+}

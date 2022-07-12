@@ -275,3 +275,17 @@ function points(games) {
     }
     return total
 }
+
+function sum (numbers) {
+    "use strict";
+    let total = 0
+    if(numbers.length === 0){
+        total += 0
+    }else{
+        for(let i of numbers){
+            total += i
+        }
+    }
+    return total
+
+};

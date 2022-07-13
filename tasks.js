@@ -289,3 +289,8 @@ function sum (numbers) {
     return total
 
 };
+
+function capitalizeWord(word) {
+    return word.slice(0,1).toUpperCase() + word.substr(1)
+
+}

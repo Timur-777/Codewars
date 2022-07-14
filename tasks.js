@@ -120,6 +120,10 @@ function simpleMultiplication(number) {
     return res
 }
 
+function hero(bullets, dragons){
+    return (bullets/dragons >= 2)?true:false;
+}
+
 function fakeBin(x){
     return x.split('').map(function(num){
         if(num<5) {return 0} else{return 1}

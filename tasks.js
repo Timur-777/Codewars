@@ -294,3 +294,15 @@ function capitalizeWord(word) {
     return word.slice(0,1).toUpperCase() + word.substr(1)
 
 }
+
+function countSheeps(arrayOfSheep) {
+    let total = 0;
+    for (let item of arrayOfSheep){
+        if(item === true){
+            total += 1
+        }else{
+            total += 0
+        }
+    }
+    return total
+}

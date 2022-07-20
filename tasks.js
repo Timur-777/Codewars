@@ -310,3 +310,8 @@ function countSheeps(arrayOfSheep) {
     }
     return total
 }
+
+function betterThanAverage(classPoints, yourPoints) {
+    let s = classPoints.reduce((a,b) => a + b) / classPoints.length;
+    return yourPoints > s?true:false
+}
